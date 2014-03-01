@@ -1,14 +1,27 @@
 <!doctype html>
 <html>
-    <head>
-        <meta charset="UTF-8" />
-        <title>Texto a numero</title>
-        <script>
-         /*Aquí todo el código en javaScript*/
+	<head>
+		<meta charset="UTF-8" />
+		<title>Texto a numero</title>
+		<script>
+			/*Aquí todo el código en javaScript*/
 
-        </script>
-    </head>
-    <body>
+			var nombre = prompt("Hola !! Cual es tu nombre completo?");
+			var edad = prompt("Hola !! Cual es tu edad?");
+			
+			var persona = new Object();
+			persona.nombre = nombre;
+			persona.edad = edad;
 
-    </body>
+			//persona.hablar = function() {
+			var imprime  = function(a,b) {
+				alert("tu nombre es: " + a+ " y tienes: " + b + " años ahhh y eres Genial!!");
+			};
+			//persona.hablar();
+			imprime(persona.nombre,persona.edad);
+		</script>
+	</head>
+	<body>
+
+	</body>
 </html>
